@@ -1,0 +1,343 @@
+/* Fonts */
+@import url(./fonts.css);
+
+/* Global */
+* {
+    font-family: "Work Sans";
+}
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.navbar-style {
+    background-color: #FC9C94;
+}
+
+.navbar-style a{
+    color: #FFEAE9;
+}
+
+.brand a {
+    font-family: "Dancing Script";
+    font-size: 46px;
+    color: #F8C6B1;
+    text-shadow: 3px 3px 5px #2d5000ab;
+}
+
+.brand a:hover {
+    color: #F8C6B1;
+}
+
+.nav-menu .nav-item a {
+    margin: 0px;
+    padding: 5px;
+    font-family: "Work Sans";
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.navbar-toggler i {
+    color: #FFEAE9;
+}
+
+.dropdown .dropdown-menu a {
+    color: #FC9C94;
+}
+
+.active-link::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    background: #7C8C24;
+}
+
+.nav-menu .nav-item a:hover {
+    background-color: #7C8C24;
+    color: #FFEAE9;
+}
+
+.nav-auth .nav-item a {
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+.nav-auth .nav-item a:hover {
+    color: #7C8C24;
+}
+
+/* Main */
+/* -- Banner */
+.banner {
+    margin-top: 30px;
+}
+
+.breadcrumb-item a {
+    color: #7C8C24;
+}
+
+.banner .banner-content {
+    background-color: #FFEAE9;
+    border-radius: 10px;
+}
+
+.banner .banner-content p {
+    font-family: "Work Sans";
+    font-size: 100px;
+    color: #3C6B00;
+    margin: 120px 0;
+    text-shadow: 3px 3px 6px #2d500060;
+}
+
+.banner .banner-content img{
+    max-width: 350px;
+    margin: 40px 0;
+}
+
+.sub-banner .card-group p {
+    font-family: "Catamaran Bold";
+    font-size: 32px;
+    padding: 140px 0 30px 0;
+}
+
+.op .op-bg .card-group {
+    border-radius: 10px;
+}
+
+.op .op-bg .card-group img {
+    max-width: 200px;
+}
+
+.op .op-bg .card-group p {
+    font-family: "Catamaran Bold";
+    font-size: 32px;
+}
+
+.op .op-bg .card-group .col {
+    text-decoration: none;
+}
+
+.op .op-bg .card-group .col:hover {
+    background-color: #7C8C24;
+}
+
+.op-make {padding-top: 120px;background-color: #2D5000;}
+.op-make p {color: #2D5000;}
+.op-mask {padding-top: 200px;background-color: #FFEAE9;}
+.op-mask p {color: #FFEAE9;}
+.op-moist {padding-top: 40px;background-color: #FC9C94;}
+.op-moist p {color: #FC9C94;}
+.op-serum {padding-top: 120px;background-color: #3C6B00;}
+.op-serum p {color: #3C6B00;}
+.op-sun {padding-top: 200px; background-color: #F8C6B1;}
+.op-sun p {color: #F8C6B1;}
+.op-toner {padding-top: 40px;background-color: #FC9C94;}
+.op-toner p {color: #FC9C94;}
+
+.bmask {background-color: #2D5000;}
+.bmask p {color: #FC9C94;}
+.bmoist {background-color: #FC9C94;}
+.bmoist p {color: #2D5000;}
+.bserum {background-color: #3C6B00;}
+.bserum p {color: #FC9C94;}
+.bsun {background-color: #7C8C24;}
+.bsun p {color: #F8C6B1;}
+.btoner {background-color: #F8C6B1;}
+.btoner p {color: #7C8C24;}
+
+/* Slider */
+
+.carousel-item {
+    max-height: 670px;
+}
+
+/* -- Showcase */
+.showcase {
+    margin: 100px 0;
+}
+
+.showcase .card img {
+    max-width: 300px;
+}
+
+.showcase .card:hover {
+    box-shadow: 2px 2px 3px #3C6B00;
+}
+
+.prod-title {
+    font-family: "Heebo";
+    color: #3C6B00;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.prod-name {
+    font-family: "Catamaran";
+    color: #3C6B00;
+    font-size: 22px;
+}
+
+.prod-price {
+    font-family: "Catamaran";
+    color: #3C6B00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prod-brand {
+    border: 2px solid #7C8C24;
+    padding: 50px 40px;
+    border-radius: 20px;
+}
+
+.prod-brand:hover {
+    background-color: #FFEAE9;
+    box-shadow: 2px 2px 5px #3C6B00;
+}
+
+.page-divider {
+    margin: 0 auto;
+    color: #2D5000;
+    width: 80%;
+}
+
+.btn-custom {
+    border: none;
+    padding: 10px;
+    min-width: 120px;
+    background-color: #FC9C94;
+    border: 1px solid #FC9C94;
+    text-decoration: none;
+    color: #FFEAE9;
+    border-radius: 6px;
+}
+
+.btn-custom:hover {
+    background-color: #7C8C24;
+    border: 1px solid #7C8C24;
+    color: #FFEAE9;
+}
+
+/* -- Product Details */
+.prod-card {
+    border: 2px solid #FFEAE9;
+    border-radius: 5px;
+}
+
+.prod-card-left img {
+    max-width: 400px;
+}
+
+.prod-card-right a {
+    font-family: "Heebo";
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FC9C94;
+}
+
+.prod-card-right h1, .prod-card-right h3 {
+    font-family: "Catamaran";
+    font-weight: bold;
+}
+
+.btn-custom-second {
+    border: none;
+    padding: 10px;
+    border: 1px solid #FC9C94;
+    background-color: #FFEAE9;
+    color: #7C8C24;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-custom-second:hover {
+    background-color: #7C8C24;
+    border: 1px solid #7C8C24;
+    color: #FFEAE9;
+}
+
+/* -- Modal */
+
+.modal-header, .modal-footer {
+    background-color: #FC9C94;
+    color: #FFEAE9;
+}
+
+.regist {
+    text-decoration: none;
+    color: #3C6B00;
+}
+
+/* Cart */
+
+.cart img {
+    opacity: 0.8;
+    max-width: 200px;
+}
+
+/* Recommend */
+
+.recommend-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #FC9C94;
+}
+
+.footer-left img {
+    max-width: 200px;
+}
+
+.list-unstyled li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.list-unstyled li a {
+    font-family: "Work Sans";
+    color: #7C8C24;
+    text-decoration: none;
+}
+
+.footer-middle p{
+    font-family: "Work Sans";
+    color: #FFEAE9;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.footer-right p {
+    font-family: "Work Sans";
+    color: #FFEAE9;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.footer-right i {
+    font-size: 48px;
+    color: #FFEAE9;
+    margin-right: 20px;
+}
+
+.footer-right i:hover {
+    color: #F8C6B1;
+}
+
+#button-addon2 {
+    color: #FFEAE9;
+    background-color: #7C8C24;
+    border-color: #7C8C24;
+}
+
+#button-addon2:hover {
+    color: #FFEAE9;
+    background-color: #2D5000;
+    border-color: #2D5000;
+}
