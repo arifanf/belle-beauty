@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELLE</title>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Icons Styles -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstraps Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header jumbotron">
+        <nav class="navbar navbar-expand-lg navbar-style">
+            <div class="container">
+                <div class="brand"><a class="navbar-brand" href="#">belle</a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
+                    <ul class="navbar-nav nav-menu me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./make-up_page.html">MAKE UP</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SKIN CARE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./skin-care_page.html">SKIN CARE</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="mask_page.html">MASK</a></li>
+                                <li><a class="dropdown-item" href="moisturizer_page.html">MOISTURIZER</a></li>
+                                <li><a class="dropdown-item" href="serum_page.html">SERUM</a></li>
+                                <li><a class="dropdown-item" href="suncare_page.html">SUN CARE</a></li>
+                                <li><a class="dropdown-item" href="toner_page.html">TONER</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                BRANDS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./brands_page.html">BRANDS</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="innisfree_page.html">INNISFREE</a></li>
+                                <li><a class="dropdown-item" href="nature-republic_page.html">NATURE REPUBLIC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-auth">
+                        <li class="nav-item">
+                            <a class="nav-link nav-cart" href="./cart_page.html"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item nav-user">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalLogin"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="container py-5">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./skin-care_page.html">Skin Care</a></li>
+                    <li class="breadcrumb-item"><a href="./moisturizer_page.html">Moisturizer</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Soothing & Moisture ALoe Vera 92% Soothing Gel</li>
+                </ol>
+            </nav>
+            <div class="prod-card py-4 px-4">
+                <div class="row">
+                    <div class="col-md me-auto prod-card-left">
+                        <img src="./img/N_SoothingMoistureAloeVera92SoothingGel.png" alt="Soothing & Moisture ALoe Vera 92% Soothing Gel">
+                    </div>
+                    <div class="col-md-6 prod-card-right py-3">
+                        <a href="nature-republic_page.html">NATURE REPUBLIC</a>
+                        <h1>Soothing & Moisture ALoe Vera 92% Soothing Gel</h1>
+                        <h3>Rp98.000</h3>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="Jumlah" min="1" max="50">
+                            <label for="floatingInput">Jumlah</label>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="danger-outlined"><i class="fas fa-heart"></i></label><br><br>
+                        <button type="button" class="btn-custom">Beli Sekarang</button>
+                        <button type="button" class="btn-custom-second">Masukkan ke Keranjang</button>
+                    </div>
+                </div>
+                <nav class="pt-5 pb-3 px-2">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-link active" id="nav-desc-tab" data-bs-toggle="tab" href="#nav-desc" role="tab" aria-controls="nav-desc" aria-selected="true">Description</a>
+                      <a class="nav-link" id="nav-use-tab" data-bs-toggle="tab" href="#nav-use" role="tab" aria-controls="nav-use" aria-selected="false">Cara Pemakaian</a>
+                      <a class="nav-link" id="nav-comp-tab" data-bs-toggle="tab" href="#nav-comp" role="tab" aria-controls="nav-comp" aria-selected="false">Komposisi</a>
+                    </div>
+                </nav>
+                <div class="tab-content px-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab">Gel yang menyerap cepat dan memberi kesan menyegarkan pada kulit. Efek menenangkan dan melembabkan kulit sensitif.</div>
+                    <div class="tab-pane fade" id="nav-use" role="tabpanel" aria-labelledby="nav-use-tab">Dapat digunakan untuk : Wajah / Rambut / Tubuh</div>
+                    <div class="tab-pane fade" id="nav-comp" role="tabpanel" aria-labelledby="nav-comp-tab">Mengandung 92% ekstrak lidah buaya.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <p class="prod-title text-center">RATE & REVIEWS</p>
+            <div class="py-4 px-4">
+                <div class="row">
+                    <div class="col-md me-auto ">
+                        <form>
+                            <div class="mb-3 mx-4">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="FormControl" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3 mx-4">
+                                <label for="email" class="form-label">Nama</label>
+                                <input type="name" class="form-control" id="FormControl" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3 mx-4">
+                                <label for="rating" class="form-label">Rating</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Pilih Rating</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="3">4</option>
+                                    <option value="3">5</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 mx-4">
+                                <label for="exampleFormControlTextarea1" class="form-label">Review</label>
+                                <textarea class="form-control" id="FormControl" rows="3" placeholder="Your Review"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <p>There is still not reviewed yet...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login">
+            <div class="modal fade" id="ModalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Masuk</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3 mx-4">
+                                    <label for="email" class="form-label">Alamat Email</label>
+                                    <input type="email" class="form-control" id="FormControl" placeholder="">
+                                </div>
+                                <div class="mb-3 mx-4">
+                                    <label for="email" class="form-label">Password</label>
+                                    <input type="name" class="form-control" id="FormControl" placeholder="">
+                                </div>
+                                <div class="mb-3 mx-4">
+                                    <button type="button" class="btn-custom">Masuk</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <small class="text-center">Belum punya akun? <a href="" data-bs-dismiss="modal"  data-bs-toggle="modal" data-bs-target="#ModalRegister" class="regist"><strong>Daftar Sekarang</strong></a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register">
+            <div class="modal fade" id="ModalRegister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Daftar</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="row g-3 mb-3 mx-3">
+                                    <div class="col">
+                                        <label for="fname" class="form-label">Nama Depan</label>
+                                        <input type="text" class="form-control" placeholder="" aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <label for="lname" class="form-label">Nama Belakang</label>
+                                        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                                    </div>
+                                </div>
+                                <div class="mb-3 mx-4">
+                                    <label for="email" class="form-label">Alamat Email</label>
+                                    <input type="email" class="form-control" id="FormControl" placeholder="">
+                                </div>
+                                <div class="mb-3 mx-4">
+                                    <label for="email" class="form-label">Password</label>
+                                    <input type="name" class="form-control" id="FormControl" placeholder="">
+                                </div>
+                                <div class="mb-3 mx-4">
+                                    <button type="button" class="btn-custom">Masuk</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <small class="text-center">Sudah punya akun? <a href="" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#ModalLogin" class="regist"><strong>Masuk Sekarang</strong></a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer  class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-md-left footer-left">
+                    <div class="mt-4"><img src="./img/belle1.png" alt="Logo"></div>
+                    <p class="text-light mb-5">&copy; 2020 Belle Indonesia. All Right Reserved</p>
+                </div>
+                <div class="col-md-4 text-md-left footer-middle">
+                    <div class="mt-4">
+                        <p>INFORMATION</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#ModalLogin">Log In</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>  
+                </div>
+                <div class="col-md-4 text-md-left footer-right">
+                    <div class="mt-4">
+                        <p>SIGN UP FOR BELLE NEWSLETER</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="" aria-label="email" aria-describedby="button-addon2">
+                            <button class="btn btn-success" type="button" id="button-addon2">SUBSCRIBE</button>
+                        </div>
+                        <div class="my-4">
+                            <a href="#"><i class="fab fa-facebook"></i></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery script -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</body>
+</html>
