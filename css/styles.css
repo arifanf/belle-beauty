@@ -276,7 +276,15 @@ html, body {
 
 .cart img {
     opacity: 0.8;
-    max-width: 200px;
+    max-width: 100px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 /* Recommend */
